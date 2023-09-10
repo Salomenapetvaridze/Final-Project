@@ -1,0 +1,233 @@
+body {
+  background-color: #070724;
+  background-image: url(/asseets/images/background-stars.svg);
+  background-size: cover;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  margin-bottom: 0;
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: -1.05px;
+  color: #fff;
+  margin: 16px 0 16px 24px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.menuPlanets h3 {
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.menuPlanets a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forWeb {
+  background-color: transparent;
+}
+.line {
+  background-color: #fff;
+  opacity: 0.2;
+  mix-blend-mode: normal;
+}
+
+.headInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option {
+  margin: 24px 20px 0;
+  align-items: center;
+}
+
+.options,
+.number,
+p {
+  display: none;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.headInfo h1 {
+  font-family: "League Spartan";
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  opacity: 0.5;
+}
+.burgerMenu {
+  margin-top: 15px;
+  margin-right: 24px;
+  align-items: end;
+}
+
+.icon {
+  background-color: #000;
+}
+
+.headMenu,
+.forWeb {
+  display: none;
+}
+
+.mainInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainIamge {
+  margin: 95px;
+  width: 111px;
+  height: 111px;
+}
+
+.infoAboutPlanets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.planetName {
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.content {
+  margin: 16px 24px 32px;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.source {
+  color: #fff;
+  opacity: 0.5;
+  font-family: "League Spartan", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  mix-blend-mode: normal;
+}
+
+.options,
+.number,
+span {
+  display: none;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  margin: 24px 20px 0;
+  align-items: center;
+}
+
+.info h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.rectangle {
+  width: 80px;
+  height: 4px;
+  margin-top: 17px;
+}
+
+.planetInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 28px 24px 48px;
+}
+
+.infoContainer {
+  height: 48px;
+  border: 1px solid #ffffff;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoText {
+  opacity: 0.5;
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 24px;
+  letter-spacing: 0.727273px;
+}
+
+.infoNumber {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.75px;
+  margin-right: 24px;
+}
